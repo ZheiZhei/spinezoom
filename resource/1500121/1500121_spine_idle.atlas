@@ -1,0 +1,339 @@
+
+1500121_spine_idle.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Neck
+  rotate: true
+  xy: 1589, 2
+  size: 215, 195
+  orig: 222, 201
+  offset: 0, 6
+  index: -1
+ex2
+  rotate: true
+  xy: 1221, 219
+  size: 687, 568
+  orig: 687, 568
+  offset: 0, 0
+  index: -1
+ex3
+  rotate: false
+  xy: 2, 15
+  size: 1217, 657
+  orig: 1217, 657
+  offset: 0, 0
+  index: -1
+face1
+  rotate: true
+  xy: 1140, 775
+  size: 131, 72
+  orig: 138, 89
+  offset: 4, 11
+  index: -1
+weapon_ex
+  rotate: true
+  xy: 590, 715
+  size: 191, 290
+  orig: 191, 290
+  offset: 0, 0
+  index: -1
+weapon_ex_1
+  rotate: true
+  xy: 1820, 1092
+  size: 463, 191
+  orig: 463, 191
+  offset: 0, 0
+  index: -1
+双马尾
+  rotate: false
+  xy: 1221, 16
+  size: 366, 201
+  orig: 366, 201
+  offset: 0, 0
+  index: -1
+后面的手
+  rotate: true
+  xy: 2, 679
+  size: 227, 302
+  orig: 227, 302
+  offset: 0, 0
+  index: -1
+手臂
+  rotate: false
+  xy: 1820, 1557
+  size: 198, 450
+  orig: 198, 450
+  offset: 0, 0
+  index: -1
+最后的吊坠
+  rotate: true
+  xy: 1820, 674
+  size: 416, 196
+  orig: 417, 205
+  offset: 0, 4
+  index: -1
+最后的吊坠1
+  rotate: true
+  xy: 306, 691
+  size: 215, 282
+  orig: 215, 358
+  offset: 0, 0
+  index: -1
+武器
+  rotate: false
+  xy: 2, 908
+  size: 1816, 1099
+  orig: 1824, 1218
+  offset: 8, 119
+  index: -1
+肩后的白毛
+  rotate: true
+  xy: 1791, 18
+  size: 654, 242
+  orig: 654, 258
+  offset: 0, 16
+  index: -1
+肩甲板
+  rotate: true
+  xy: 882, 711
+  size: 195, 256
+  orig: 195, 264
+  offset: 0, 0
+  index: -1
+
+1500121_spine_idle2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Hair_1
+  rotate: true
+  xy: 2, 1759
+  size: 75, 104
+  orig: 75, 109
+  offset: 0, 5
+  index: -1
+Hair_2
+  rotate: true
+  xy: 531, 1741
+  size: 93, 163
+  orig: 96, 163
+  offset: 0, 0
+  index: -1
+Hair_3
+  rotate: true
+  xy: 696, 1733
+  size: 101, 157
+  orig: 101, 157
+  offset: 0, 0
+  index: -1
+Hair_4
+  rotate: true
+  xy: 269, 1753
+  size: 81, 120
+  orig: 81, 120
+  offset: 0, 0
+  index: -1
+Hair_5
+  rotate: true
+  xy: 108, 1754
+  size: 80, 159
+  orig: 81, 159
+  offset: 1, 0
+  index: -1
+Hair_6
+  rotate: false
+  xy: 1051, 1692
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+Head
+  rotate: true
+  xy: 1399, 1654
+  size: 180, 200
+  orig: 180, 200
+  offset: 0, 0
+  index: -1
+Head_ang
+  rotate: true
+  xy: 1601, 1654
+  size: 180, 199
+  orig: 180, 200
+  offset: 0, 1
+  index: -1
+Head_ser
+  rotate: true
+  xy: 1802, 1654
+  size: 180, 199
+  orig: 180, 200
+  offset: 0, 1
+  index: -1
+Head_surp
+  rotate: true
+  xy: 2, 1572
+  size: 180, 199
+  orig: 180, 200
+  offset: 0, 1
+  index: -1
+Story_think
+  rotate: true
+  xy: 1198, 1655
+  size: 179, 199
+  orig: 180, 200
+  offset: 0, 1
+  index: -1
+ex5
+  rotate: false
+  xy: 549, 607
+  size: 927, 346
+  orig: 945, 372
+  offset: 13, 12
+  index: -1
+face
+  rotate: false
+  xy: 391, 1752
+  size: 138, 82
+  orig: 138, 89
+  offset: 0, 4
+  index: -1
+leidian
+  rotate: false
+  xy: 838, 1375
+  size: 586, 277
+  orig: 600, 288
+  offset: 10, 1
+  index: -1
+weapon_ex_2
+  rotate: false
+  xy: 1257, 955
+  size: 720, 372
+  orig: 720, 372
+  offset: 0, 0
+  index: -1
+图层 3
+  rotate: false
+  xy: 714, 1032
+  size: 541, 341
+  orig: 541, 341
+  offset: 0, 0
+  index: -1
+大衣
+  rotate: true
+  xy: 2, 89
+  size: 516, 1139
+  orig: 527, 1159
+  offset: 11, 20
+  index: -1
+帽子
+  rotate: true
+  xy: 1426, 1329
+  size: 323, 325
+  orig: 323, 325
+  offset: 0, 0
+  index: -1
+扬尘1
+  rotate: false
+  xy: 480, 1473
+  size: 356, 258
+  orig: 356, 258
+  offset: 0, 0
+  index: -1
+扬尘3
+  rotate: true
+  xy: 203, 1491
+  size: 259, 275
+  orig: 430, 327
+  offset: 97, 9
+  index: -1
+披风后
+  rotate: false
+  xy: 2, 1152
+  size: 710, 319
+  orig: 710, 319
+  offset: 0, 0
+  index: -1
+白裙子
+  rotate: true
+  xy: 2, 743
+  size: 407, 545
+  orig: 407, 580
+  offset: 0, 35
+  index: -1
+衣角
+  rotate: true
+  xy: 1143, 2
+  size: 603, 662
+  orig: 635, 662
+  offset: 0, 0
+  index: -1
+项圈的吊坠
+  rotate: true
+  xy: 855, 1711
+  size: 123, 194
+  orig: 124, 195
+  offset: 1, 0
+  index: -1
+
+1500121_spine_idle3.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ex1
+  rotate: false
+  xy: 2, 967
+  size: 1546, 1060
+  orig: 1546, 1060
+  offset: 0, 0
+  index: -1
+武器吊坠
+  rotate: true
+  xy: 1127, 2
+  size: 963, 659
+  orig: 963, 659
+  offset: 0, 0
+  index: -1
+风
+  rotate: true
+  xy: 2, 7
+  size: 958, 1123
+  orig: 958, 1123
+  offset: 0, 0
+  index: -1
+
+1500121_spine_idle4.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Dust_1
+  rotate: false
+  xy: 1181, 2
+  size: 789, 786
+  orig: 800, 788
+  offset: 4, 2
+  index: -1
+披风（前）
+  rotate: false
+  xy: 1181, 790
+  size: 742, 901
+  orig: 742, 901
+  offset: 0, 0
+  index: -1
+正义执行
+  rotate: false
+  xy: 2, 416
+  size: 553, 1275
+  orig: 553, 1279
+  offset: 0, 4
+  index: -1
+腿
+  rotate: false
+  xy: 557, 659
+  size: 622, 1032
+  orig: 622, 1032
+  offset: 0, 0
+  index: -1
