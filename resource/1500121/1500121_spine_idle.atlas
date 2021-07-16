@@ -46,56 +46,56 @@ weapon_ex_1
   orig: 463, 191
   offset: 0, 0
   index: -1
-双马尾
+￥ﾏﾌ￩ﾩﾬ￥ﾰﾾ
   rotate: false
   xy: 1221, 16
   size: 366, 201
   orig: 366, 201
   offset: 0, 0
   index: -1
-后面的手
+￥ﾐﾎ￩ﾝﾢ￧ﾚﾄ￦ﾉﾋ
   rotate: true
   xy: 2, 679
   size: 227, 302
   orig: 227, 302
   offset: 0, 0
   index: -1
-手臂
+￥ﾛﾾ￥ﾱﾂ 3
   rotate: false
   xy: 1820, 1557
   size: 198, 450
   orig: 198, 450
   offset: 0, 0
   index: -1
-最后的吊坠
+￥ﾤﾧ￨ﾡﾣ
   rotate: true
   xy: 1820, 674
   size: 416, 196
   orig: 417, 205
   offset: 0, 4
   index: -1
-最后的吊坠1
+￥ﾸﾽ￥ﾭﾐ
   rotate: true
   xy: 306, 691
   size: 215, 282
   orig: 215, 358
   offset: 0, 0
   index: -1
-武器
+￦ﾉﾋ￨ﾇﾂ
   rotate: false
   xy: 2, 908
   size: 1816, 1099
   orig: 1824, 1218
   offset: 8, 119
   index: -1
-肩后的白毛
+￦ﾉﾬ￥ﾰﾘ1
   rotate: true
   xy: 1791, 18
   size: 654, 242
   orig: 654, 258
   offset: 0, 16
   index: -1
-肩甲板
+￦ﾉﾬ￥ﾰﾘ3
   rotate: true
   xy: 882, 711
   size: 195, 256
@@ -213,63 +213,63 @@ weapon_ex_2
   orig: 720, 372
   offset: 0, 0
   index: -1
-图层 3
+￦ﾊﾫ￩ﾣﾎ￥ﾐﾎ
   rotate: false
   xy: 714, 1032
   size: 541, 341
   orig: 541, 341
   offset: 0, 0
   index: -1
-大衣
+￦ﾊﾫ￩ﾣﾎ￯ﾼﾈ￥ﾉﾍ￯ﾼﾉ
   rotate: true
   xy: 2, 89
   size: 516, 1139
   orig: 527, 1159
   offset: 11, 20
   index: -1
-帽子
+￦ﾜﾀ￥ﾐﾎ￧ﾚﾄ￥ﾐﾊ￥ﾝﾠ1
   rotate: true
   xy: 1426, 1329
   size: 323, 325
   orig: 323, 325
   offset: 0, 0
   index: -1
-扬尘1
+￦ﾜﾀ￥ﾐﾎ￧ﾚﾄ￥ﾐﾊ￥ﾝﾠ
   rotate: false
   xy: 480, 1473
   size: 356, 258
   orig: 356, 258
   offset: 0, 0
   index: -1
-扬尘3
+￦ﾭﾣ￤ﾹﾉ￦ﾉﾧ￨ﾡﾌ
   rotate: true
   xy: 203, 1491
   size: 259, 275
   orig: 430, 327
   offset: 97, 9
   index: -1
-披风后
+￦ﾭﾦ￥ﾙﾨ
   rotate: false
   xy: 2, 1152
   size: 710, 319
   orig: 710, 319
   offset: 0, 0
   index: -1
-白裙子
+￦ﾭﾦ￥ﾙﾨ￥ﾐﾊ￥ﾝﾠ
   rotate: true
   xy: 2, 743
   size: 407, 545
   orig: 407, 580
   offset: 0, 35
   index: -1
-衣角
+￧ﾙﾽ￨ﾣﾙ￥ﾭﾐ
   rotate: true
   xy: 1143, 2
   size: 603, 662
   orig: 635, 662
   offset: 0, 0
   index: -1
-项圈的吊坠
+￨ﾂﾩ￥ﾐﾎ￧ﾚﾄ￧ﾙﾽ￦ﾯﾛ
   rotate: true
   xy: 855, 1711
   size: 123, 194
@@ -289,14 +289,14 @@ ex1
   orig: 1546, 1060
   offset: 0, 0
   index: -1
-武器吊坠
+￨ﾂﾩ￧ﾔﾲ￦ﾝ﾿
   rotate: true
   xy: 1127, 2
   size: 963, 659
   orig: 963, 659
   offset: 0, 0
   index: -1
-风
+￨ﾅ﾿
   rotate: true
   xy: 2, 7
   size: 958, 1123
@@ -316,21 +316,21 @@ Dust_1
   orig: 800, 788
   offset: 4, 2
   index: -1
-披风（前）
+￨ﾡﾣ￨ﾧﾒ
   rotate: false
   xy: 1181, 790
   size: 742, 901
   orig: 742, 901
   offset: 0, 0
   index: -1
-正义执行
+￩ﾡﾹ￥ﾜﾈ￧ﾚﾄ￥ﾐﾊ￥ﾝﾠ
   rotate: false
   xy: 2, 416
   size: 553, 1275
   orig: 553, 1279
   offset: 0, 4
   index: -1
-腿
+￩ﾣﾎ
   rotate: false
   xy: 557, 659
   size: 622, 1032
