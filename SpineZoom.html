@@ -126,10 +126,6 @@
 	height: 600px;
 	background-size: 100% 600px;
 }
-#dyn {
-	margin-top: 32px;
-	margin-left: -35px;
-}
 @media only screen and (max-width: 980px) {
 #background {
 	height: 1200px;
@@ -248,12 +244,12 @@ left: 10px;
 var bodyWidth = document.body.offsetWidth
 const elem = document.getElementById('tachie')
 if( bodyWidth <= 964 ) {
-	panzoom = Panzoom(elem, { contain: 'outside', startScale: 1.2 , startX: -bodyWidth/2 , startY: -270 })
+	panzoom = Panzoom(elem, { contain: 'outside', startScale: 1.2 , startX: -bodyWidth/2 , startY: -270 , minScale : 1.2})
 	$('.button i').addClass("fa-4x")
 	$('.code-en').before("<br>")
 }
 else {
-	panzoom = Panzoom(elem, { contain: 'outside', startScale: 0.7 , startX: -685 , startY: -940 })
+	panzoom = Panzoom(elem, { contain: 'outside', startScale: 0.7 , startX: -685 , startY: -940 , minScale : 0.7 })
 }
 const parent = elem.parentElement
 const resetButton = document.getElementById('reset')
@@ -321,62 +317,58 @@ $('#juexing3').click(function(e){
 </script>
 <script type="text/javascript">
 	// 指定 Spine 模型数量
-	var i = 2;
-  
-	var app = new Tiny.Application({
-	  dpi: 1,
-	  showFPS: false,
-	  width: 2048,
-	  height: 2048,
-	  fixSize: true,
-	  renderOptions: {
-		transparent: true,
-	  },
-	});
-  
-	document.getElementById('dyn').appendChild(app.view);
-  
-	var spineInstance = [];
-	var loader = new Tiny.loaders.Loader();
-	var container = [];
-  
-	for (var x = 1; x <= i; x++) {
-	  container[x] = new Tiny.Container();
-	}
-  
-	var onAssetsLoaded = function(loader, res) {
-	  // 指定数组对应的资源名
-	  spineInstance[1] = new Tiny.spine.Spine(res.spineRes1.spineData);
-	  spineInstance[2] = new Tiny.spine.Spine(res.spineRes2.spineData);
-  
+	  var i = 2;
+	
+	  var app = new Tiny.Application({
+		dpi: 1,
+		showFPS: false,
+		width: 2048,
+		height: 2048,
+		fixSize: true,
+		renderOptions: {
+		  transparent: true,
+		},
+	  });
+	
+	  document.getElementById('dyn').appendChild(app.view);
+	
+	  var spineInstance = [];
+	  var loader = new Tiny.loaders.Loader();
+	  var container = [];
+	  
 	  for (var x = 1; x <= i; x++) {
-	  spineInstance[x].skeleton.setSkinByName('default');
-	  container[x].addChild(spineInstance[x]);
-  
-	  var localRect = spineInstance[x].getLocalBounds();
-  
-	  spineInstance[x].setPivot(container[x].width / 2, container[i].height / 2);
-	  spineInstance[x].setPosition(Tiny.WIN_SIZE.width / 2 - localRect.x, Tiny.WIN_SIZE.height / 2 - localRect.y);
-	  spineInstance[x].state.setAnimation(0, 'idle', true);
+		container[x] = new Tiny.Container();
 	  }
-	}
-  // 指定 skel 文件位置及资源名，三种文件需在同一目录下
-	loader
-	  .add({
-		name: 'spineRes1',
-		url: 'https://raw.githubusercontent.com/ZheiZhei/spinezoom/master/resource/1500121/1500121_spine_idle.skel',
-		metadata: {
-		  spineSkeletonScale: 1,
+	  // 指定数组对应的资源名
+	  var onAssetsLoaded = function(loader, res) {
+		spineInstance[1] = new Tiny.spine.Spine(res.spineRes1.spineData);
+		spineInstance[2] = new Tiny.spine.Spine(res.spineRes2.spineData);
+	
+		for (var x = 1; x <= i; x++) {
+		spineInstance[x].skeleton.setSkinByName('default');
+		container[x].addChild(spineInstance[x]);
+	
+		spineInstance[x].setPosition(1024, 1024);
+		spineInstance[x].state.setAnimation(0, 'idle', true);
 		}
-	  });
-	loader
-	  .add({
-		name: 'spineRes2',
-		url: 'https://raw.githubusercontent.com/ZheiZhei/spinezoom/master/resource/1500122/1500122_spine_idle.skel',
-		metadata: {
-		  spineSkeletonScale: 1,
-		}
-	  });
-	loader.load(onAssetsLoaded);
-	app.run(container[1]);
-  </script>
+	  }
+	  // 指定资源位置及缩放比例，三种文件需在同一目录下
+	  loader
+		.add({
+		  name: 'spineRes1',
+		  url: 'https://raw.githubusercontent.com/ZheiZhei/spinezoom/master/resource/1500121/1500121_spine_idle.skel',
+		  metadata: {
+			spineSkeletonScale: 0.245,
+		  }
+		});
+	  loader
+		.add({
+		  name: 'spineRes2',
+		  url: 'https://raw.githubusercontent.com/ZheiZhei/spinezoom/master/resource/1500122/1500122_spine_idle.skel',
+		  metadata: {
+			spineSkeletonScale: 1,
+		  }
+		});
+	  loader.load(onAssetsLoaded);
+	  app.run(container[1]);
+</script>
